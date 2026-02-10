@@ -1,0 +1,28 @@
+{
+  "name": "nl80211_test",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "build"
+  ],
+  "gypfile": true,
+  "scripts": {
+    "build": "npx node-gyp rebuild && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "8.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "node-gyp": "^11.5.0",
+    "typescript": "^5.9.3"
+  }
+}
