@@ -18,7 +18,7 @@ npm install node-nl80211
 ## Usage
 
 ```javascript
-import { init, getInterfaceInfo, scanAp } from './dist/src/index.js';
+import { init, getInterfaceInfo, scanAp } from 'node-nl80211';
 
 init();
 
