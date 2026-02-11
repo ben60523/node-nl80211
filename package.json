@@ -1,5 +1,5 @@
 {
-  "name": "nl80211_test",
+  "name": "node-nl80211",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
